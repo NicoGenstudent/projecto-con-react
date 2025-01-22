@@ -1,44 +1,4 @@
-
 html {
     height: 100%;
     width: 100%;
   }
-
-body {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-}
-
-nav {
-  background-color: slateblue;
-}
-
-nav .nav-link {
-  color: white;
-}
-
-nav .nav-link:hover {
-  color: goldenrod;
-}
-
-.btn:hover {
-  background-color: palevioletred;
-  color: white;
-  border: none;
-}
-
-.card-header-man {
-  background-color: #D04848; /* Gato Manzana */
-}
-
-.card-header-orange {
-  background-color: #F3B95F; /* Gato Naranja */
-}
-
-.card-header-banana {
-  background-color: #FDE767; /* Gato Banana */
-}
-
-.card-img-top {
-  height: 250px;
-  object-fit: contain;
-}
