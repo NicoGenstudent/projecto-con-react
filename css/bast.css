@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   background-image: url("https://www.chelenko.com/wp-content/uploads/2020/11/255091834.jpg");
+  background-size: cover;
 }
 
 .form-signin {
