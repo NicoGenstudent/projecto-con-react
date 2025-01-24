@@ -1,3 +1,5 @@
+/* SideBar*/
+
 .Sidebar {
     position: fixed;
     top: 0;
@@ -21,6 +23,13 @@
     font-size: 14px;
 }
 
+#toggleSidebar {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+
 .Sidebar .nav-link:hover {
     background-color: rgb(85, 156, 226);
 }
@@ -38,3 +47,6 @@
         justify-content: center;
     }
 }
+
+/*NavBar*/
+
