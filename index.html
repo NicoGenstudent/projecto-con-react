@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/lucas.css">
+  <link rel="stylesheet" href="css/vale.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <div class="navbar-wrapper">
+
+      <nav class="navbar navbar-expand-lg bg-white shadow rounded-pill p-2 position-absolute top-0 end-0 m-3">
+        <div class="container-fluid">
+          <!-- Botón de hamburguesa -->
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Contenido colapsable -->
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <!-- Barra de búsqueda -->
+            <form class="d-flex me-auto my-2 my-lg-0">
+              <input class="form-control form-control-sm rounded-pill me-2" type="search" placeholder="Buscar"
+                aria-label="Buscar">
+              <button type="button" class="btn btn-custom" aria-label="Configuración">
+                <i class="bi bi-gear"></i>
+              </button>
+            </form>
+
+            <!-- Información del usuario -->
+            <div class="d-flex align-items-center mt-2 mt-lg-0">
+              <i class="bi bi-person-circle fs-3 text-primary me-2"></i>
+              <div>
+                <strong class="d-block">Nombre Usuario</strong>
+                <small class="text-muted">Cargo Laboral</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </nav>
+    </nav>
+    
+
+  </header>
+
+  <main>
+    <!-- Resumen General -->
+    <!-- Filtro -->
+    <div class="container my-4">
+      <div class="card shadow-sm p-3">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="mb-0 fw-bold">Resumen General</h5>
+          <select class="form-select w-auto">
+            <option>Diario</option>
+            <option>Semanal</option>
+            <option>Mensual</option>
+          </select>
+        </div>
+        <!-- Categorias Info -->
+        <div class="row g-3">
+          <div class="col-12 col-md-3">
+            <div class="summary-card green">
+              <div>
+                <i class="bi bi-check-circle-fill"></i>
+                Check In
+              </div>
+              <span>20</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="summary-card red">
+              <div>
+                <i class="bi bi-x-circle-fill"></i>
+                Check Out
+              </div>
+              <span>20</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="summary-card blue">
+              <div>
+                <i class="bi bi-info-circle-fill"></i>
+                Disponibles
+              </div>
+              <span>20</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="summary-card yellow">
+              <div>
+                <i class="bi bi-calendar-check-fill"></i>
+                Reservados
+              </div>
+              <span>20</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resumen Tabla Reserva -->
+    <div class="container my-4">
+      <div class="card shadow-sm p-3">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h5 class="mb-0 fw-bold">Lista de Reservaciones</h5>
+        </div>
+        <table class="table">
+          <thead>
+            <tr class="table-info">
+              <th scope="col">Nombre</th>
+              <th scope="col">Check In / Check Out</th>
+              <th scope="col">Tipo</th>
+              <th scope="col">Habitacion</th>
+              <th scope="col">Pago Adeudado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Nombre Apellido</td>
+              <td>01/01/2025 - 02/01/2025</td>
+              <td>Single Bed</td>
+              <td>#B02</td>
+              <td>$000000</td>
+            </tr>
+            <tr>
+              <td>Nombre Apellido</td>
+              <td>01/01/2025 - 02/01/2025</td>
+              <td>Single Bed</td>
+              <td>#B02</td>
+              <td>$000000</td>
+            </tr>
+            <tr>
+              <td>Nombre Apellido</td>
+              <td>01/01/2025 - 02/01/2025</td>
+              <td>Single Bed</td>
+              <td>#B02</td>
+              <td>$000000</td>
+            </tr>
+            <tr>
+              <td>Nombre Apellido</td>
+              <td>01/01/2025 - 02/01/2025</td>
+              <td>Single Bed</td>
+              <td>#B02</td>
+              <td>$000000</td>
+            </tr>
+            <tr>
+              <td>Nombre Apellido</td>
+              <td>01/01/2025 - 02/01/2025</td>
+              <td>Single Bed</td>
+              <td>#B02</td>
+              <td>$000000</td>
+            </tr>
+            <tr>
+              <td>Nombre Apellido</td>
+              <td>01/01/2025 - 02/01/2025</td>
+              <td>Single Bed</td>
+              <td>#B02</td>
+              <td>$000000</td>
+            </tr>
+            <tr>
+              <td>Nombre Apellido</td>
+              <td>01/01/2025 - 02/01/2025</td>
+              <td>Single Bed</td>
+              <td>#B02</td>
+              <td>$000000</td>
+            </tr>
+            <tr>
+              <td>Nombre Apellido</td>
+              <td>01/01/2025 - 02/01/2025</td>
+              <td>Single Bed</td>
+              <td>#B02</td>
+              <td>$000000</td>
+            </tr>
+            <tr>
+              <td>Nombre Apellido</td>
+              <td>01/01/2025 - 02/01/2025</td>
+              <td>Single Bed</td>
+              <td>#B02</td>
+              <td>$000000</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- Boton -->
+        <div class="text-end mt-3">
+          <button class="btn btn-download">Descargar Planilla</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <!-- Scripts -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
